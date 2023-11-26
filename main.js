@@ -33,6 +33,7 @@
                 text.length + ' символов<br>' +
                 '<b>Без пробелов:</b> ' + withoutSpaces + '<br>';
         });
+<<<<<<< HEAD
 
         textArea.addEventListener('keyup', function(){
             changeButtonsStatus(textArea.value.length > 0);
@@ -42,5 +43,7 @@
             textArea.value = '';
             changeButtonsStatus(false);
         });
+=======
+>>>>>>> parent of fe4e263 (button inactivation added)
     });
 }());
