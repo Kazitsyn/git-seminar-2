@@ -1,3 +1,4 @@
+
 (function(){
     let countWords = function(text) {
         let wordRegex = /[a-zA-Zа-яА-Я0-9]/;
